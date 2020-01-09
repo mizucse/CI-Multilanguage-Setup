@@ -1,0 +1,7 @@
+# Step 1: Site Default Language
+  > File: application/config/config.php
+    	$config['language']  = 'english';
+			
+# Step 2: Enable hooks
+	> application/config/config.php
+    	$config['enable_hooks'] = TRUE;
